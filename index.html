@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div class="mainContainer">
+
+            <div class="header"><h1>Time to Focus</h1></div>
+
+            <!--TIMER -->
+            <div class="timer">
+
+                <div class="working">
+                    <p>Working Time</p>
+                </div>
+
+                <div class="timerData">
+                    <span class="timeMinutes">00</span>
+                    <span>:</span>
+                    <span class="timeSeconds">00</span>
+                </div>
+
+                <div class="buttonArea">
+                    <button type="button" class="start"><img src="video-play.png"></button>
+                    <button type="button" class="reset"><img src="reset.png"></button>
+                </div>
+                
+            </div>
+
+            <!--TASK MANAGER-->
+            <div class="taskArea">
+
+                <div class="headerTask">
+                    <h2>Tasks</h2>
+                </div>
+
+                <div class="tasks">
+
+                    <div class="addTask">
+                        <img src="add.png">
+                        Add task
+                    </div>
+
+                        <form class="form hidden">
+                            
+                            <input type="text" name="input" id="input" placeholder="What are you working on?">
+
+                            <div class="buttons">
+                                <button class="cancel">Cancel</button>
+                                <button type="button" id="save">Save</button>
+                            </div>
+                            
+                        </form>
+
+                        <div class="taskProcces">
+
+                        </div>
+                    
+
+                    
+                </div>
+            </div>
+    </div>
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+
+    </body>
+
+
+
+</html>
